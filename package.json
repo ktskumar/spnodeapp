@@ -1,0 +1,23 @@
+{
+  "name": "spnodeapp",
+  "version": "1.0.0",
+  "description": "Nodejs application to access SharePoint",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ShanthaKumar T",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^3.2.4",
+    "typescript": "^2.6.2"
+  },
+  "dependencies": {
+    "@pnp/common": "^1.0.1",
+    "@pnp/logging": "^1.0.1",
+    "@pnp/nodejs": "^1.0.1",
+    "@pnp/odata": "^1.0.1",
+    "@pnp/sp": "^1.0.1"
+  }
+}
